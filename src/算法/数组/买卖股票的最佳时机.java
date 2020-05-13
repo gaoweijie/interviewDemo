@@ -26,6 +26,7 @@ package 算法.数组;
 public class 买卖股票的最佳时机 {
     public int maxProfit(int[] prices) {
         if(prices.length == 0) return 0;
+
         int min = prices[0];
         int diff = 0;
         for(int i = 0; i < prices.length; i++) {
