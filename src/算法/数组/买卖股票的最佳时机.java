@@ -1,5 +1,7 @@
 package 算法.数组;
 
+import java.util.Arrays;
+
 /**
  * 给定一个数组，它的第 i 个元素是一支给定股票第 i 天的价格。
  *
@@ -24,6 +26,13 @@ package 算法.数组;
  * 链接：https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock
  */
 public class 买卖股票的最佳时机 {
+    public static void main(String[] args) {
+        Arrays.sort(new int[]{9,2,5,3});
+        StringBuilder sb = new StringBuilder("dsfhfj");
+        sb.reverse();
+        System.out.println(sb);
+    }
+
     public int maxProfit(int[] prices) {
         if(prices.length == 0) return 0;
 
