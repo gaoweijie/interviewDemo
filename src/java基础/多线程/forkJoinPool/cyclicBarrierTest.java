@@ -3,12 +3,6 @@ package java基础.多线程.forkJoinPool;
 import java.util.concurrent.CyclicBarrier;
 
 /**
- * PROJECT_NAME:downLoad
- * Author:lucaifang
- * Date:2016/3/18
- */
-
-/**
  * id:1
  * id:4
  * id:2
